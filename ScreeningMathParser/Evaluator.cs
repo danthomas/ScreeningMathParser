@@ -144,6 +144,12 @@ namespace ScreeningMathParser
             return node.Value;
         }
 
+        /// <summary>
+        /// Validates that the tokens in the specified array
+        /// are odd in number
+        /// </summary>
+        /// <param name="tokens"></param>
+        /// <returns></returns>
         internal bool ValidateTokens(string[] tokens)
         {
             //Must have an odd number of tokens

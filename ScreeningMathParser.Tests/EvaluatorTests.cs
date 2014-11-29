@@ -4,7 +4,6 @@ namespace ScreeningMathParser.Tests
 {
     public partial class EvaluatorTests
     {
-
         [TestMethod]
         public void Evaluate_3a2c4()
         {

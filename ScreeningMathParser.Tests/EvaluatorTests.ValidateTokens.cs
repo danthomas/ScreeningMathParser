@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ScreeningMathParser.Tests
@@ -25,7 +24,5 @@ namespace ScreeningMathParser.Tests
 
             Assert.IsTrue(actual);
         }
-
-        //ToDo : more tests
     }
 }
