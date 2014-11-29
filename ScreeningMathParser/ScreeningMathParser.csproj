@@ -40,7 +40,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Evaluator.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="OperatorNode.cs" />
+    <Compile Include="OperatorType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValueNode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
