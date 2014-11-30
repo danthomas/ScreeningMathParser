@@ -3,7 +3,7 @@
     /// <summary>
     /// Represents a Value Leaf Node in an Expression Tree
     /// </summary>
-    public class ValueNode : Node
+    internal class ValueNode : Node
     {
         private readonly int _value;
 

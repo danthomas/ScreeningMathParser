@@ -51,10 +51,18 @@
   </Choose>
   <ItemGroup>
     <Compile Include="EvaluatorTests.cs" />
-    <Compile Include="EvaluatorTests.BuildExpressionTree.cs" />
-    <Compile Include="EvaluatorTests.GetOperatorType.cs" />
-    <Compile Include="EvaluatorTests.ValidateChars.cs" />
-    <Compile Include="EvaluatorTests.ValidateTokens.cs" />
+    <Compile Include="EvaluatorTests.BuildExpressionTree.cs">
+      <DependentUpon>EvaluatorTests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluatorTests.GetOperatorType.cs">
+      <DependentUpon>EvaluatorTests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluatorTests.ValidateChars.cs">
+      <DependentUpon>EvaluatorTests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluatorTests.ValidateTokens.cs">
+      <DependentUpon>EvaluatorTests.cs</DependentUpon>
+    </Compile>
     <Compile Include="NodeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -65,7 +73,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EvaluatorTests.Tokenise.cs" />
+    <Compile Include="EvaluatorTests.Tokenise.cs">
+      <DependentUpon>EvaluatorTests.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -2,7 +2,6 @@
 
 namespace ScreeningMathParser.Tests
 {
-    [TestClass]
     public partial class EvaluatorTests
     {
         [TestMethod]

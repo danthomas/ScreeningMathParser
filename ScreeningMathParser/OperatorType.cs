@@ -1,6 +1,6 @@
 ﻿namespace ScreeningMathParser
 {
-    public enum OperatorType
+    internal enum OperatorType
     {
         Addition,
         Subtraction,

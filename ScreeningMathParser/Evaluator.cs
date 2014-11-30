@@ -72,13 +72,11 @@ namespace ScreeningMathParser
                 }
                 else if (_operatorChars.Contains(tokens[index]))
                 {
-                    operatorType = GetOperatorType(tokens[index]);
-                    index++;
+                    operatorType = GetOperatorType(tokens[index++]);
                 }
                 else if (tokens[index] == leftParen)
                 {
                     index++;
-
                     if (node == null)
                     {
                         node = BuildExpressionTree(tokens, ref index);

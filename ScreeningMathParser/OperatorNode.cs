@@ -5,7 +5,7 @@ namespace ScreeningMathParser
     /// <summary>
     /// An Operator Node in an Expression Tree
     /// </summary>
-    public class OperatorNode : Node
+    internal class OperatorNode : Node
     {
         /// <summary>
         /// Constructs an Operator node with Left and Right child Nodes and an OperatorType
